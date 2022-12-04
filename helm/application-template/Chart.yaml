@@ -1,0 +1,30 @@
+apiVersion: v2
+name: application-template
+version: 0.1.0
+appVersion: 0.1.0
+kubeVersion: v1.25.0
+description: REST API Backend for application-template-backend
+type: application
+keywords:
+  - backend
+  - REST
+  - API
+  - golang
+  - distroless
+  - micro-service
+  - kubernetes
+  - nbari/violetear
+  - application-template
+home: https://vr00mm.github.io/
+sources:
+  - https://github.com/vr00mm/application-template-backend
+maintainers: # (optional)
+  - name: Vr00mm (Rémi ZIOLKOWSKI)
+    email: remi.ziolkowski@gmail.com
+    url: https://github.com/vr00mm
+icon: https://cncf-branding.netlify.app/img/projects/helm/horizontal/color/helm-horizontal-color.png
+deprecated: false
+annotations:
+  go_version: 1.19.3
+  type: application
+  kind: backend
